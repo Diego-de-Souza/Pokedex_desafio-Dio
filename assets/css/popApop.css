@@ -1,0 +1,88 @@
+@charset "UTF=8";
+
+.window-Especification {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 96%;
+    float: inline-start;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.action {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 40px;
+}
+
+.returnArrow {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.heart-enjoy {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu-information {
+    height: 60%;
+    background-color: rgb(16, 145, 65);
+    width: 100%;
+    border-radius: 20px;
+}
+
+.detailList {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 60px 0 20px 0 ;
+}
+
+.itemList{
+    display: block;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    padding: 0 0 10px 0;
+    opacity: 0.8;
+}
+
+/*Estilização da table de dados About*/
+.tableInformationAbout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.informationPokemon {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 30px;
+}
+
+.subItem {
+    display: block,;
+    padding: 20px 0 20px 30px;
+    font-weight: 800;
+    font-size: large;
+}
+
+.especificationItem {
+    width: 35%;
+}
+
+/*Estilização da tabela de dados Base states*/
+.tableInformationBaseStates{
+    display: none;
+}
